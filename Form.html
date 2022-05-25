@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+<h1>This is Html forms</h1>
+<form action="backend.php">
+    <div>
+        <label for="name"></label>
+        Name:<Input text="name" placeholder="name" id="name">
+    </div>
+    <br>
+    <div> <label for="email"></label>
+        Email:<Input type="email" placeholder=" Email" id="email">
+    </div>
+    <br>
+    <div> <label for="password"></label>
+        password:<input type="password" placeholder="password" id="password">
+    </div>
+    <br>
+    <div>
+        Phone No:
+        <input type="tel" name="phone" pattern="[0-9]{10}" required>
+</div>
+    <br>
+    <div> <label for="Role">Role:</label>
+        <select name="choose" id="Rle">
+            <option value="Studen">student</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Developer">developer</option>
+        </select>
+    </div>
+    <br>
+    <div> <label for="bonus"></label>
+        bonus:<Input type="number" id="bonus"></div><br>
+    <div>
+        Are you eligible?:<Input type="checkbox" name="myeligibility"></div><br>
+    <div>
+        <b> Gender</b>:Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">other<input
+            type="radio" name="mygender">
+    </div>
+    <br>
+    <div> <label for="date"></label>
+        Date:<input type="date" name="mydate" id="date">
+    </div>
+    <br>
+    <div> <label for="textarea"></label>
+        Write about yourself:<br><textarea name="mytext" cols="40" row="40" id="textarea"></textarea></div>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit now">
+        <input type="reset" value="reset now">
+    </div>
+</form>
+<a href="./Table.html">Table items</a>
+</body>
+</html>
